@@ -3,11 +3,11 @@ import os
 
 import aws_cdk as cdk
 
-from fastapi_cdkfargate.fastapi_cdkfargate_stack import FastapiCdkfargateStack
+from fastapi_cdkfargate.fastapi_cdkfargate_stack import FastAPI_Stack
 
 
 app = cdk.App()
-FastapiCdkfargateStack(app, "FastapiCdkfargateStack",
+FastAPI_Stack(app, "FastapiCdkfargateStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.

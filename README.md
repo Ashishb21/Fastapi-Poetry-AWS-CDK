@@ -55,4 +55,14 @@ command.
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
 
-Enjoy!
+Enjoy
+
+github link - https://github.com/Ashishb21/FastAPI-Docker-Poetry
+
+create a fargate service
+https://docs.aws.amazon.com/cdk/v2/guide/ecs_example.html``
+`` install the aws cli
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+## To destroy the stack 
+
+cdk destroy 
