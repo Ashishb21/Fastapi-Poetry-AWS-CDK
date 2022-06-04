@@ -57,12 +57,27 @@ command.
 
 Enjoy
 
-github link - https://github.com/Ashishb21/FastAPI-Docker-Poetry
+##Github For FastAPI Project - 
+```
+https://github.com/Ashishb21/FastAPI-Docker-Poetry
+```
+## AWS CDK Prerequisites
+https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
 
-create a fargate service
-https://docs.aws.amazon.com/cdk/v2/guide/ecs_example.html``
-`` install the aws cli
+##Create a Fargate service 
+https://docs.aws.amazon.com/cdk/v2/guide/ecs_example.html
+##Install the AWS cli
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-## To destroy the stack 
 
+## Configuring AWS 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+## AWS Bootstrap
+https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html
+```commandline
+cdk bootstrap aws://ACCOUNT-NUMBER-1/REGION-1 
+```
+## To destroy the stack 
+```
 cdk destroy 
+
+```
